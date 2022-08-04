@@ -1,0 +1,217 @@
+/* body{
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 1.5px;
+} */
+.container{
+    width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top:15px;
+    margin: 0px auto;
+    display: flex;
+}
+
+ul{
+    list-style: none;
+    padding:0;
+}
+/* =======header===== */
+#header{
+    background-color: #23282d;
+    margin-bottom: 20px;
+}
+form #search{
+    position: relative;
+}
+form #search input{
+    background-color: #131619;
+    width:248px;
+    border:none;
+    outline: none;
+    padding:10px 42px 10px 15px;
+    color:#909090;
+}
+form #search button{
+    position: absolute;
+    right:0px;
+    bottom:12px;
+    background-color: #131619;
+    color:grey;
+    border:none;
+    outline: none;
+}
+nav{
+    display: flex;
+    flex: 100%;
+    border-right: 5px solid #ff2d2d;
+}
+#main-menu li a{
+    display: block;
+    color:#eeee;
+    padding:15px 20px;
+}
+#main-menu li:first-child a{
+    padding-left:0px ;
+}
+#main-menu li a:hover{
+    color:#4db2ec;
+    text-decoration: none;
+}
+/* ==========featured======= */
+.box .box-head h3 {
+    background-color: #23282d;
+    color: #eeeeee;
+    text-transform: uppercase;
+    padding:5px 10px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.box-body .list-featured-post li{
+    margin-top: 20px;
+    flex:360px 0 1;
+}
+.box-body .list-featured-post li .post-thumb{
+    display: block;
+}
+.box-body .list-featured-post li .post-thumb:hover{
+    transform: scale(1.2,1.2);
+    transform: rotate(1deg);
+    transition: all 0.5s;
+}
+.box-body .list-featured-post li .post-title{
+    text-transform: uppercase;
+    color: #5f5f5f;
+    display: block;
+    margin: 20px 0px;
+    font-weight: 600;
+}
+.box-body .list-featured-post li .post-title:hover{
+    text-decoration: none;
+    color:#4db2ec;
+}
+/* ===========content======== */
+#content .box .box-head h3{
+    background-color:#4db2ec;
+}
+.box-head{
+    margin-bottom: 30px;
+    height: 40px;
+    display: block;
+    padding: 0px;
+    margin: 0px;
+}
+#content .box .box-head{
+    border-bottom: 3px solid #4db2ec;
+}
+.box-body #list-post li{
+    margin-top: 20px;
+    clear: left;
+}
+.box-body #list-post .post-thumb{
+    display: block;
+    left: 0px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    float: left;
+}
+.box-body #list-post #more-info .post-title{
+    display: block;
+}
+#more-info .post-tilte{
+    text-decoration: none;
+    font-size: 21px;
+    font-weight:600;
+    color:#111111;
+}
+#more-info a:hover{
+    text-decoration: none;
+    color:#4db2ec;
+}
+/* ===========sidebar========= */
+.list-topic{
+    display: block;
+}
+.list-topic span{
+    float:right;
+}
+.list-topic li{
+    margin-top:30px;
+}
+.list-topic a{
+    color:#212121;
+}
+.list-topic a:hover{
+    color:#ff2d2d;
+    text-decoration: none;
+}
+.list-topic a span{
+    font-weight: 400;
+}
+#sidebar .box .box-head{
+    margin-top: 20px;
+    border-bottom: 3px solid #ff2d2d;
+}
+#sidebar .box .box-head h3{
+    background-color: #ff2d2d;
+}
+#sidebar{
+    margin-left: 30px;
+}
+#footer{
+    background-color: #2e2f30;
+}
+#footer .container .box-head h3{
+    background-color: #2e2f30;
+    display: inline-block;
+    padding-left: 0px;
+    color:#f6f6f6;
+    font-size: 18px;
+}
+#footer .container .box-body p{
+    color:#f6f6f6;
+    font-size:14px;
+}
+#list-social {
+    display: flex;
+}
+#list-social li a{
+    display: block;
+    padding: 5px 10px;
+    background-color: #434648;
+    margin-right: 10px;
+}
+#footer .container{
+    display: flex;
+}
+.box-left{
+    width: 260px;
+    display: block;
+}
+.box-center{
+    width: 470px;
+    margin-left: 30px;
+    display: block;
+}
+.box-right{
+    display: block;
+    margin-left: 30px;
+}
+/* ==========copyright========= */
+#wp-copyright{
+    background-color: #222527;
+}
+.copyright{
+    color:#ffffff;
+    font-size: 14px;
+    display: inline-block;
+}
+ul#footer-list{
+    display:flex;
+}
+#footer-list li a{
+    display: block;
+    margin: 0px 45px;
+}
